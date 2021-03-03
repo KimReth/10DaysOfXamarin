@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_10DaysOfXamarin.MainPage">
+
+    <StackLayout Margin="16,20,16,0">
+        <Entry x:Name="nameEntry" Placeholder="Enter your name"/>
+        <Button BackgroundColor="#7FFF00" Text="Say Hello" Clicked="Button_Clicked"/>
+        <Label x:Name="greetingLabel" HorizontalTextAlignment="Center" Text="Hello stranger! Welcome to 10 days of Xamarin!" FontSize="20"/>
+    </StackLayout>
+
+</ContentPage>
